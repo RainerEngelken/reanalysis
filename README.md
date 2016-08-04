@@ -32,8 +32,7 @@ The input-output function of the single units for the rate network was solved us
 the code in `lifMFT_Richardson.jl`.
 The resulting rate perturbation was projected on the least stable direction of the linearized rate dynamics.
 
-In the case of the spiking network, exactly the same network parameters and topology were used. The exactly same perturbation was applied to
-$\mu_0$. To obtain good statistics, this was repeated fo over 1.42 Mio trials. In each trial, the resulting rate vector (binned into 1ms bins) was projected onto the least stable direction.
+In the case of the spiking network, exactly the same network parameters and topology were used. The exactly same perturbation was applied to μ₀. To obtain good statistics, this was repeated for over 1.42 Mio trials. In each trial, the resulting rate vector (binned into 1 ms bins) was projected onto the least stable direction.
 The average rate deviation after the end of the external perturbation is depicted in figure 1d.
 Different perturbation durations and perturbation strength had similar effect.
 
