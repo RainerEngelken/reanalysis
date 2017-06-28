@@ -1,5 +1,5 @@
 ##################################################################
-###     	spiking network of Ostojic Nature Neuroscience 2014	##
+###    	spiking network of Ostojic Nature Neuroscience 2014	##
 ### 	Copyright Rainer Engelken, 2016 rainer@nld.ds.mpg.de	##
 ##################################################################
 using Distributions
